@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+html{
+    height: 150%;
+    background-color: red;
+}
+
+h1,h2,p{
+    margin-bottom: 20px;
+    color: white;
+}
+
+@media only screen and (min-width:800px){
+    html{
+        background-color: green;
+    }
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.product {
+    min-height: 150px;
+    max-width: 250px;
+    background-color: goldenrod;
+    color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px navy;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+}
+
+img {
+
+}
+
+nav{
+    width: 125%;
+    height: 80px;
+    position: fixed;
+    background-color: goldenrod;
+    padding: 10px 20px;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.wrapper{
+    box-sizing: border-box;
+    padding-top: 125px;
+    padding-left: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
